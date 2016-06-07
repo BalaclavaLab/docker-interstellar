@@ -3,5 +3,5 @@ Docker container with [interstellar](https://github.com/ccyanni/interstellar) ap
 
 Put your secrets.yml and .boto files to some "secrets" directory and run container as:
 
-`docker run -d  --volume "$PWD"/secrets:/usr/src/interstellar/secrets balaclavalab/docker-interstellar`
+`docker run --volume "$PWD"/secrets:/usr/src/interstellar/secrets balaclavalab/docker-interstellar`
 
